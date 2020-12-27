@@ -1,0 +1,92 @@
+$bodyBgColor: linear-gradient( to bottom right, #921515, 70%, red);
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: cursive;
+} 
+body{
+    background-image:$bodyBgColor;
+    color: rgb(255, 81, 0);
+}
+a{
+    color: black;
+    font-size: 50%;
+    text-align: right;
+}
+a:hover{
+    color: rgb(255, 174, 0);
+}
+.sec-1, .sec-2, .sec-3{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-size: 2.5rem;
+    overflow: hidden hidden;
+
+
+    p{
+        transform: rotate(-20deg);
+        letter-spacing: 1rem;
+        text-shadow: 2px 2px 2px black;
+    }
+    button{
+        padding: 1.2rem 3rem;
+        font-size: 3rem;
+        font-weight: 700;
+        border-radius: 0.8rem;
+        box-shadow: 2px 2px 2px rgb(82, 4, 4);
+        outline:none;  
+        background-color: rgb(219, 158, 45);
+        color: rgb(255, 51, 0);
+        letter-spacing: 0.4rem;
+        text-shadow: 2px 2px 2px black,-2px -2px 2px black;
+    }
+    button:hover{
+        background-color: rgb(235, 184, 90);
+        color: rgb(121, 28, 4);
+        text-shadow: 2px 2px 2px white,-2px -2px 2px white;
+    }
+}
+
+.sec-2, .sec-3{
+    display: none;
+    button{
+        padding: 1.2rem 1rem;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        text-shadow: 2px 2px 2px rgb(224, 179, 179),-2px -2px 2px  rgb(224, 179, 179);
+        font-weight: 400;
+
+    }
+    div{
+        border: 1px solid black;
+        background: white;
+        padding: 0.5rem 0.5rem;
+        border-radius: 0.5rem;
+
+    }
+    p{
+        transform: rotate(0deg);
+        letter-spacing: 0.5rem;
+        text-shadow: 2px 2px 2px black;
+        
+    }
+}
+
+.sec-3{
+    p{
+        transform: rotate(-18deg);
+        line-height: 200%;
+        color: black;
+        font-weight:600;
+        letter-spacing: 0.5rem;
+        text-shadow: 2px 2px 2px rgb(235, 215, 209),-2px -2px 2px  rgb(224, 179, 179);
+        font-size: 3.5rem;
+
+        
+    }
+}

@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#921515), color-stop(70%), to(red));
+  background-image: linear-gradient(to bottom right, #921515, 70%, red);
+  color: #ff5100;
+}
+
+a {
+  color: black;
+  font-size: 50%;
+  text-align: right;
+}
+
+a:hover {
+  color: #ffae00;
+}
+
+.sec-1, .sec-2, .sec-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-size: 2.5rem;
+  overflow: hidden hidden;
+}
+
+.sec-1 p, .sec-2 p, .sec-3 p {
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  letter-spacing: 1rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.sec-1 button, .sec-2 button, .sec-3 button {
+  padding: 1.2rem 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: 2px 2px 2px #520404;
+          box-shadow: 2px 2px 2px #520404;
+  outline: none;
+  background-color: #db9e2d;
+  color: #ff3300;
+  letter-spacing: 0.4rem;
+  text-shadow: 2px 2px 2px black,-2px -2px 2px black;
+}
+
+.sec-1 button:hover, .sec-2 button:hover, .sec-3 button:hover {
+  background-color: #ebb85a;
+  color: #791c04;
+  text-shadow: 2px 2px 2px white,-2px -2px 2px white;
+}
+
+.sec-2, .sec-3 {
+  display: none;
+}
+
+.sec-2 button, .sec-3 button {
+  padding: 1.2rem 1rem;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 2px 2px 2px #e0b3b3, -2px -2px 2px #e0b3b3;
+  font-weight: 400;
+}
+
+.sec-2 div, .sec-3 div {
+  border: 1px solid black;
+  background: white;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.sec-2 p, .sec-3 p {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  letter-spacing: 0.5rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.sec-3 p {
+  -webkit-transform: rotate(-18deg);
+          transform: rotate(-18deg);
+  line-height: 200%;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  text-shadow: 2px 2px 2px #ebd7d1, -2px -2px 2px #e0b3b3;
+  font-size: 3.5rem;
+}
+/*# sourceMappingURL=style.css.map */
